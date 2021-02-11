@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
 
+  #テストの変更
   def index
     @posts = Post.all.order(id: "DESC")
   end
